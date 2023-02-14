@@ -1,0 +1,532 @@
+body {
+  font-family: "Inria Sans", sans-serif;
+  background-color: #ffecd1;
+}
+
+/* ------------------------------------------------------HEADER---------------------------------------------------- */
+
+header {
+  width: 100%;
+  background-color: #ffecd1;
+}
+
+nav a img {
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+
+nav a img:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.nav-link {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #002147;
+  transition: 0.3s;
+  margin-right: 30px;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  color: aliceblue;
+  background-color: #002147;
+  transition: 0.3s;
+  box-shadow: 8px 8px 7px 0px #001524;
+  font-weight: bold;
+}
+
+ul li {
+  transition: 0.5s;
+}
+
+ul li:hover {
+  transition: 0.6s;
+}
+
+/* --------------------------------------------------------------PAGINA PRINCIPAL----------------------------------------------------- */
+
+.principal {
+  margin-top: 55px;
+  text-align: center;
+  align-items: center;
+}
+
+.textprin {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #002147;
+  margin-top: 50px;
+}
+
+.principal__title {
+  font-size: 60px;
+}
+
+.principal__empresa {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.principal__bienvenido {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #78290f;
+  margin-top: 200px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.principal__videoseg {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ----------------------------------------------------------------------PAGINA SERVICIOS------------------------------------------------------------- */
+
+.titleservi {
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #002147;
+  text-align: center;
+}
+
+.title__proteccion {
+  margin-top: 50px;
+}
+
+.title__seguridad {
+  margin-top: 160px;
+}
+
+.textservi {
+  font-size: 20px;
+  color: #002147;
+  font-weight: bold;
+  margin: 100px 100px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.imagenesservi {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenesservi img {
+  margin: 80px 40px 0px 40px;
+  border-radius: 25px;
+  box-shadow: 7px 7px 9px 0px #001524;
+  transition: 0.5s;
+}
+
+.imagenesservi img:hover {
+  opacity: 0.4;
+}
+
+.boton__contratarservi {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.boton__contratarservi a {
+  background-color: #002147;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.7s;
+  border: 2px solid #002147;
+}
+
+.boton__contratarservi a:hover {
+  background-color: transparent;
+  color: #002147;
+}
+
+.text__servicio {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #78290f;
+  font-size: 28px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* -----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------ */
+
+.title__contacto {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #002147;
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+form {
+  margin: 100px 150px;
+}
+
+form input {
+  border-radius: 8px;
+}
+
+form input,
+form label,
+form legend {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #002147;
+}
+
+form label {
+  display: flex;
+}
+
+form select {
+  font-size: 25px;
+}
+
+.btn__enviarcontact {
+  margin-top: 60px;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 600px;
+  color: aliceblue;
+  background-color: #002147;
+  transition: 0.7s;
+}
+
+.btn__enviarcontact:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: #ff7d00;
+  color: #002147;
+}
+
+.text__contacto {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #002147;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.text__contacto span {
+  font-style: italic;
+  color: #78290f;
+}
+
+/* -------------------------------------------------------------PAGINA SOBRE NOSOTROS------------------------------------------------------------- */
+
+.titlenos {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #002147;
+  font-size: 55px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.textnos {
+  font-size: 20px;
+  color: #002147;
+  font-weight: bold;
+  margin: 100px 100px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.text__nosotros span {
+  font-style: italic;
+  color: #78290f;
+}
+
+.text__valores span {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ff7d00;
+}
+
+.imagen__oficialnos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.imagen__oficialnos img {
+  border-radius: 25px;
+  transition: 0.5s;
+  box-shadow: 7px 7px 9px 0px #001524;
+}
+
+.imagen__oficialnos img:hover {
+  opacity: 0.4;
+}
+
+.mapa__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__nosotroslema {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  color: #78290f;
+}
+
+/* ------------------------------------------------------------PAGINA INSTALACION-------------------------------------------------------------- */
+
+.titleinst {
+  font-size: 55px;
+  color: #002147;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.title__instalacion {
+  margin-top: 80px;
+}
+
+.title__instalacion2 {
+  margin-top: 160px;
+}
+
+.textinst {
+  font-size: 20px;
+  color: #002147;
+  font-weight: bold;
+  margin: 60px 100px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.title__instalacion3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #78290f;
+  margin-top: 115px;
+  margin-bottom: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.imagenesinst {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenesinst img {
+  margin: 80px 40px 0px 40px;
+  border-radius: 25px;
+  box-shadow: 7px 7px 9px 0px #001524;
+  transition: 0.5s;
+}
+
+.imagenesinst img:hover {
+  opacity: 0.4;
+}
+
+.inst__btnsaber {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.inst__btnsaber a {
+  background-color: #78290f;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.7s;
+  border: 2px solid #78290f;
+}
+
+.inst__btnsaber a:hover {
+  background-color: transparent;
+  color: #78290f;
+}
+
+/* -----------------------------------------------------------------FOOTER----------------------------------------------------------------- */
+
+footer {
+  width: 100%;
+  background-color: #001524;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 15px 0px 15px 0px;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #15616d;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+.end,
+.end-social {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78290f;
+}
+/* RESTRICCIONES DE LA PAGINA PRINCIPAL */
+@media (max-width: 1120px) and (min-width: 390px) {
+  .principal__img {
+    width: 300px;
+  }
+
+  .principal__title {
+    font-size: 40px;
+  }
+
+  .principal__empresa {
+    font-size: 20px;
+  }
+
+  .principal__bienvenido {
+    font-size: 25px;
+  }
+
+  .principal__videoseg iframe {
+    width: 340px;
+    height: 220px;
+  }
+}
+/* RESTRICCIONES DE LAS PAGINAS SERVICIOS E INSTALACION */
+@media (max-width: 1200px) and (min-width: 390px) {
+  /* SERVICIOS */
+
+  .titleservi {
+    font-size: 35px;
+  }
+
+  .textservi {
+    font-size: 15px;
+    margin: 50px 10px;
+    text-align: center;
+  }
+
+  .imagenesservi {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenesservi img {
+    width: 350px;
+  }
+
+  .boton__contratarservi a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .text__servicio {
+    font-size: 20px;
+  }
+
+  /* INSTALACION */
+
+  .titleinst {
+    font-size: 35px;
+  }
+
+  .textinst {
+    font-size: 15px;
+    margin: 50px 10px;
+    text-align: center;
+  }
+
+  .imagenesinst {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenesinst img {
+    width: 350px;
+  }
+
+  .inst__btnsaber a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .title__instalacion3 {
+    font-size: 20px;
+  }
+}
