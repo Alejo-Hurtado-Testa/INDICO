@@ -172,12 +172,11 @@ ul li:hover {
 /* -----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------ */
 
 .title__contacto {
-  margin-left: 100px;
-  margin-top: 100px;
+  margin: 100px 95px 0px 100px;
   font-weight: bold;
   text-transform: uppercase;
   color: #002147;
-  font-size: 55px;
+  font-size: 50px;
   letter-spacing: 2px;
 }
 
@@ -443,8 +442,12 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: #78290f;
 }
-/* RESTRICCIONES DE LA PAGINA PRINCIPAL */
+
+/* RESTRICCIONES DE LAS PAGINAS */
+
 @media (max-width: 1120px) and (min-width: 390px) {
+  /* PRINCIPAL */
+
   .principal__img {
     width: 300px;
   }
@@ -465,9 +468,80 @@ footer {
     width: 340px;
     height: 220px;
   }
-}
-/* RESTRICCIONES DE LAS PAGINAS SERVICIOS E INSTALACION */
-@media (max-width: 1200px) and (min-width: 390px) {
+
+  /* NOSOTROS */
+
+  .titlenos {
+    font-size: 35px;
+  }
+
+  .textnos {
+    font-size: 15px;
+    text-align: center;
+    margin: 50px 30px;
+  }
+
+  .text__valores span {
+    font-size: 20px;
+  }
+
+  .imagen__oficialnos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen__oficialnos img {
+    width: 360px;
+  }
+
+  .mapa__nosotros iframe {
+    width: 370px;
+    height: 230px;
+  }
+
+  .text__nosotroslema {
+    font-size: 25px;
+  }
+
+  /* CONTACTO */
+
+  .title__contacto {
+    font-size: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+  }
+
+  form input,
+  form label,
+  form legend {
+    font-size: 18px;
+  }
+
+  form select {
+    font-size: 18px;
+  }
+
+  textarea {
+    width: 360px;
+  }
+
+  .btn__enviarcontact {
+    width: 300px;
+  }
+
+  .text__contacto {
+    font-size: 20px;
+  }
+
   /* SERVICIOS */
 
   .titleservi {
@@ -476,7 +550,7 @@ footer {
 
   .textservi {
     font-size: 15px;
-    margin: 50px 10px;
+    margin: 50px 30px;
     text-align: center;
   }
 
@@ -507,7 +581,7 @@ footer {
 
   .textinst {
     font-size: 15px;
-    margin: 50px 10px;
+    margin: 50px 30px;
     text-align: center;
   }
 
@@ -528,5 +602,11 @@ footer {
 
   .title__instalacion3 {
     font-size: 20px;
+  }
+
+  /* FOOTER */
+
+  .end {
+    font-size: 16px;
   }
 }
