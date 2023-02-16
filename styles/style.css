@@ -119,19 +119,12 @@ ul li:hover {
   line-height: 28px;
 }
 
-.imagenesservi {
-  display: flex;
-  justify-content: center;
-}
-
-.imagenesservi img {
-  margin: 80px 40px 0px 40px;
-  border-radius: 25px;
+#imagenesservi img {
   box-shadow: 7px 7px 9px 0px #001524;
   transition: 0.5s;
 }
 
-.imagenesservi img:hover {
+#imagenesservi img:hover {
   opacity: 0.4;
 }
 
@@ -346,19 +339,12 @@ form select {
   font-style: italic;
 }
 
-.imagenesinst {
-  display: flex;
-  justify-content: center;
-}
-
-.imagenesinst img {
-  margin: 80px 40px 0px 40px;
-  border-radius: 25px;
+#imagenesinst img {
   box-shadow: 7px 7px 9px 0px #001524;
   transition: 0.5s;
 }
 
-.imagenesinst img:hover {
+#imagenesinst img:hover {
   opacity: 0.4;
 }
 
@@ -554,16 +540,6 @@ footer {
     text-align: center;
   }
 
-  .imagenesservi {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .imagenesservi img {
-    width: 350px;
-  }
-
   .boton__contratarservi a {
     font-size: 18px;
     padding: 15px;
@@ -583,16 +559,6 @@ footer {
     font-size: 15px;
     margin: 50px 30px;
     text-align: center;
-  }
-
-  .imagenesinst {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .imagenesinst img {
-    width: 350px;
   }
 
   .inst__btnsaber a {
