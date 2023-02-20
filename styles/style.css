@@ -431,7 +431,7 @@ footer {
 
 /* RESTRICCIONES DE LAS PAGINAS */
 
-@media (max-width: 1120px) and (min-width: 390px) {
+@media (max-width: 1120px) and (min-width: 360px) {
   /* PRINCIPAL */
 
   .principal__img {
@@ -488,6 +488,7 @@ footer {
 
   .text__nosotroslema {
     font-size: 25px;
+    margin-left: 5px;
   }
 
   /* CONTACTO */
