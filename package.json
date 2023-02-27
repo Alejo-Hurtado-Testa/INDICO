@@ -1,0 +1,20 @@
+{
+  "name": "pagina-indico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejo-Hurtado-Testa/PreEntrega2-Hurtado-Testa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejo-Hurtado-Testa/PreEntrega2-Hurtado-Testa/issues"
+  },
+  "homepage": "https://github.com/Alejo-Hurtado-Testa/PreEntrega2-Hurtado-Testa#readme"
+}

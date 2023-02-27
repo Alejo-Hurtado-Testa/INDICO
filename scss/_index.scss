@@ -1,0 +1,36 @@
+.principal {
+  margin-top: 55px;
+  text-align: center;
+  align-items: center;
+
+  .textprin {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002147;
+    margin-top: 50px;
+  }
+
+  .principal__title {
+    font-size: 60px;
+  }
+
+  .principal__empresa {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .principal__bienvenido {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #78290f;
+    margin-top: 200px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+
+  .principal__videoseg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}

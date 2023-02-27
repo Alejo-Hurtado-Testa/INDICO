@@ -119,12 +119,12 @@ ul li:hover {
   line-height: 28px;
 }
 
-#imagenesservi img {
+.imagenesservi img {
   box-shadow: 7px 7px 9px 0px #001524;
   transition: 0.5s;
 }
 
-#imagenesservi img:hover {
+.imagenesservi img:hover {
   opacity: 0.4;
 }
 
@@ -339,12 +339,12 @@ form select {
   font-style: italic;
 }
 
-#imagenesinst img {
+.imagenesinst img {
   box-shadow: 7px 7px 9px 0px #001524;
   transition: 0.5s;
 }
 
-#imagenesinst img:hover {
+.imagenesinst img:hover {
   opacity: 0.4;
 }
 

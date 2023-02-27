@@ -1,0 +1,67 @@
+.titlenos {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #002147;
+  font-size: 55px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.textnos {
+  font-size: 20px;
+  color: #002147;
+  font-weight: bold;
+  margin: 100px 100px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.text__nosotros {
+  span {
+    font-style: italic;
+    color: #78290f;
+  }
+}
+
+.text__valores {
+  span {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ff7d00;
+  }
+}
+
+.imagen__oficialnos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  img {
+    border-radius: 25px;
+    transition: 0.5s;
+    box-shadow: 7px 7px 9px 0px #001524;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
+
+.mapa__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__nosotroslema {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  color: #78290f;
+}
