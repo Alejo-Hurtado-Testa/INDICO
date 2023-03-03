@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-color: #ffecd1;
+  background-color: $bg-color;
 }
 
 nav {
@@ -13,6 +13,9 @@ nav {
         transition: all 0.7s;
       }
     }
+  }
+  .navbar-toggler {
+    border: none;
   }
 }
 
@@ -31,14 +34,14 @@ ul {
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #002147;
+  color: $primary-color;
   transition: 0.3s;
   margin-right: 30px;
   padding: 8px 10px;
   border-radius: 4px;
   &:hover {
     color: aliceblue;
-    background-color: #002147;
+    background-color: $primary-color;
     transition: 0.3s;
     box-shadow: 8px 8px 7px 0px #001524;
     font-weight: bold;

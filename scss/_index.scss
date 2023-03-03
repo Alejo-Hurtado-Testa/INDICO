@@ -6,7 +6,7 @@
   .textprin {
     font-weight: bold;
     text-transform: uppercase;
-    color: #002147;
+    color: $primary-color;
     margin-top: 50px;
   }
 
@@ -20,13 +20,11 @@
   }
 
   .principal__bienvenido {
-    font-weight: bold;
+    font: $font-lema;
     text-transform: uppercase;
-    color: #78290f;
+    color: $secondary-color;
     margin-top: 200px;
-    font-size: 45px;
     letter-spacing: 2px;
-    font-style: italic;
   }
 
   .principal__videoseg {

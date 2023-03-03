@@ -1,7 +1,6 @@
 .titleinst {
-  font-size: 55px;
-  color: #002147;
-  font-weight: bold;
+  font: $font-title;
+  color: $primary-color;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
@@ -16,29 +15,26 @@
 }
 
 .textinst {
-  font-size: 20px;
-  color: #002147;
-  font-weight: bold;
+  font: $font-text;
+  color: $primary-color;
   margin: 60px 100px;
   letter-spacing: 1px;
   line-height: 28px;
 }
 
 .title__instalacion3 {
-  font-size: 28px;
-  font-weight: bold;
+  font: $font-lema;
   letter-spacing: 1px;
-  color: #78290f;
+  color: $secondary-color;
   margin-top: 115px;
   margin-bottom: 100px;
   text-align: center;
   text-transform: uppercase;
-  font-style: italic;
 }
 
 .imagenesinst {
   img {
-    box-shadow: 7px 7px 9px 0px #001524;
+    box-shadow: $img-shadow;
     transition: 0.5s;
     &:hover {
       opacity: 0.4;
@@ -51,7 +47,7 @@
   text-align: center;
 
   a {
-    background-color: #78290f;
+    background-color: $secondary-color;
     color: aliceblue;
     text-decoration: none;
     font-weight: bold;
@@ -60,10 +56,10 @@
     padding: 20px;
     border-radius: 15px;
     transition: 0.7s;
-    border: 2px solid #78290f;
+    border: 2px solid $secondary-color;
     &:hover {
       background-color: transparent;
-      color: #78290f;
+      color: $secondary-color;
     }
   }
 }

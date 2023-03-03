@@ -2,7 +2,7 @@
   margin: 100px 95px 0px 100px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #002147;
+  color: $primary-color;
   font-size: 50px;
   letter-spacing: 2px;
 }
@@ -25,7 +25,11 @@ form {
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #002147;
+    color: $primary-color;
+  }
+
+  label {
+    display: flex;
   }
 
   select {
@@ -39,27 +43,26 @@ form {
     padding: 15px;
     width: 600px;
     color: aliceblue;
-    background-color: #002147;
+    background-color: $primary-color;
     transition: 0.7s;
     &:hover {
       cursor: pointer;
       transform: scale(1.2);
       background-color: #ff7d00;
-      color: #002147;
+      color: $primary-color;
     }
   }
 }
 
 .text__contacto {
   text-transform: uppercase;
-  font-weight: bold;
-  color: #002147;
-  font-size: 28px;
+  font: $font-lema;
+  color: $primary-color;
   text-align: center;
   margin-bottom: 100px;
 
   span {
     font-style: italic;
-    color: #78290f;
+    color: $secondary-color;
   }
 }

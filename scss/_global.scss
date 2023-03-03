@@ -6,5 +6,17 @@
 
 body {
   font-family: "Inria Sans", sans-serif;
-  background-color: #ffecd1;
+  background-color: $bg-color;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $secondary-color;
 }

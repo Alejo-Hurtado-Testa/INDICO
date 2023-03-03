@@ -1,9 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inria Sans", sans-serif;
   background-color: #ffecd1;
 }
 
-/* ------------------------------------------------------HEADER---------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78290f;
+}
 
 header {
   width: 100%;
@@ -14,15 +30,23 @@ nav a img {
   margin-top: 20px;
   transition: all 0.5s;
 }
-
 nav a img:hover {
   transform: scale(1.2);
   transition: all 0.7s;
+}
+nav .navbar-toggler {
+  border: none;
 }
 
 ul {
   list-style-type: none;
   margin-top: 20px;
+}
+ul li {
+  transition: 0.5s;
+}
+ul li:hover {
+  transition: 0.6s;
 }
 
 .nav-link {
@@ -35,7 +59,6 @@ ul {
   padding: 8px 10px;
   border-radius: 4px;
 }
-
 .nav-link:hover {
   color: aliceblue;
   background-color: #002147;
@@ -44,61 +67,41 @@ ul {
   font-weight: bold;
 }
 
-ul li {
-  transition: 0.5s;
-}
-
-ul li:hover {
-  transition: 0.6s;
-}
-
-/* --------------------------------------------------------------PAGINA PRINCIPAL----------------------------------------------------- */
-
 .principal {
   margin-top: 55px;
   text-align: center;
   align-items: center;
 }
-
-.textprin {
+.principal .textprin {
   font-weight: bold;
   text-transform: uppercase;
   color: #002147;
   margin-top: 50px;
 }
-
-.principal__title {
+.principal .principal__title {
   font-size: 60px;
 }
-
-.principal__empresa {
+.principal .principal__empresa {
   font-size: 30px;
   letter-spacing: 1px;
 }
-
-.principal__bienvenido {
-  font-weight: bold;
+.principal .principal__bienvenido {
+  font: bold italic 28px "Inria Sans", sans-serif;
   text-transform: uppercase;
   color: #78290f;
   margin-top: 200px;
-  font-size: 45px;
   letter-spacing: 2px;
-  font-style: italic;
 }
-
-.principal__videoseg {
+.principal .principal__videoseg {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-/* ----------------------------------------------------------------------PAGINA SERVICIOS------------------------------------------------------------- */
-
 .titleservi {
-  font-size: 55px;
-  font-weight: bold;
+  font: bold 55px "Inria Sans", sans-serif;
+  color: #002147;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #002147;
   text-align: center;
 }
 
@@ -111,9 +114,8 @@ ul li:hover {
 }
 
 .textservi {
-  font-size: 20px;
+  font: bold 20px "Inria Sans", sans-serif;
   color: #002147;
-  font-weight: bold;
   margin: 100px 100px;
   letter-spacing: 1px;
   line-height: 28px;
@@ -123,7 +125,6 @@ ul li:hover {
   box-shadow: 7px 7px 9px 0px #001524;
   transition: 0.5s;
 }
-
 .imagenesservi img:hover {
   opacity: 0.4;
 }
@@ -132,7 +133,6 @@ ul li:hover {
   margin-top: 110px;
   text-align: center;
 }
-
 .boton__contratarservi a {
   background-color: #002147;
   color: aliceblue;
@@ -145,7 +145,6 @@ ul li:hover {
   transition: 0.7s;
   border: 2px solid #002147;
 }
-
 .boton__contratarservi a:hover {
   background-color: transparent;
   color: #002147;
@@ -155,14 +154,73 @@ ul li:hover {
   margin-top: 150px;
   margin-bottom: 100px;
   text-transform: uppercase;
-  font-weight: bold;
+  font: bold italic 28px "Inria Sans", sans-serif;
   color: #78290f;
-  font-size: 28px;
   text-align: center;
-  font-style: italic;
 }
 
-/* -----------------------------------------------------------------------PAGINA CONTACTO------------------------------------------------------------ */
+.titleinst {
+  font: bold 55px "Inria Sans", sans-serif;
+  color: #002147;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.title__instalacion {
+  margin-top: 80px;
+}
+
+.title__instalacion2 {
+  margin-top: 160px;
+}
+
+.textinst {
+  font: bold 20px "Inria Sans", sans-serif;
+  color: #002147;
+  margin: 60px 100px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.title__instalacion3 {
+  font: bold italic 28px "Inria Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #78290f;
+  margin-top: 115px;
+  margin-bottom: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.imagenesinst img {
+  box-shadow: 7px 7px 9px 0px #001524;
+  transition: 0.5s;
+}
+.imagenesinst img:hover {
+  opacity: 0.4;
+}
+
+.inst__btnsaber {
+  margin-top: 110px;
+  text-align: center;
+}
+.inst__btnsaber a {
+  background-color: #78290f;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.7s;
+  border: 2px solid #78290f;
+}
+.inst__btnsaber a:hover {
+  background-color: transparent;
+  color: #78290f;
+}
 
 .title__contacto {
   margin: 100px 95px 0px 100px;
@@ -176,11 +234,12 @@ ul li:hover {
 form {
   margin: 100px 150px;
 }
-
+form label {
+  display: flex;
+}
 form input {
   border-radius: 8px;
 }
-
 form input,
 form label,
 form legend {
@@ -190,16 +249,13 @@ form legend {
   font-weight: bold;
   color: #002147;
 }
-
 form label {
   display: flex;
 }
-
 form select {
   font-size: 25px;
 }
-
-.btn__enviarcontact {
+form .btn__enviarcontact {
   margin-top: 60px;
   border: none;
   border-radius: 30px;
@@ -209,8 +265,7 @@ form select {
   background-color: #002147;
   transition: 0.7s;
 }
-
-.btn__enviarcontact:hover {
+form .btn__enviarcontact:hover {
   cursor: pointer;
   transform: scale(1.2);
   background-color: #ff7d00;
@@ -219,35 +274,29 @@ form select {
 
 .text__contacto {
   text-transform: uppercase;
-  font-weight: bold;
+  font: bold italic 28px "Inria Sans", sans-serif;
   color: #002147;
-  font-size: 28px;
   text-align: center;
   margin-bottom: 100px;
 }
-
 .text__contacto span {
   font-style: italic;
   color: #78290f;
 }
 
-/* -------------------------------------------------------------PAGINA SOBRE NOSOTROS------------------------------------------------------------- */
-
 .titlenos {
   text-align: center;
-  font-weight: bold;
+  font: bold 55px "Inria Sans", sans-serif;
   text-transform: uppercase;
   color: #002147;
-  font-size: 55px;
   letter-spacing: 2px;
   margin-top: 100px;
   margin-bottom: 80px;
 }
 
 .textnos {
-  font-size: 20px;
+  font: bold 20px "Inria Sans", sans-serif;
   color: #002147;
-  font-weight: bold;
   margin: 100px 100px;
   letter-spacing: 1px;
   line-height: 28px;
@@ -271,13 +320,11 @@ form select {
   align-items: center;
   margin-top: 100px;
 }
-
 .imagen__oficialnos img {
   border-radius: 25px;
   transition: 0.5s;
   box-shadow: 7px 7px 9px 0px #001524;
 }
-
 .imagen__oficialnos img:hover {
   opacity: 0.4;
 }
@@ -289,89 +336,13 @@ form select {
 }
 
 .text__nosotroslema {
-  font-size: 28px;
-  font-weight: bold;
-  font-style: italic;
+  font: bold italic 28px "Inria Sans", sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin-top: 110px;
   margin-bottom: 100px;
   color: #78290f;
 }
-
-/* ------------------------------------------------------------PAGINA INSTALACION-------------------------------------------------------------- */
-
-.titleinst {
-  font-size: 55px;
-  color: #002147;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.title__instalacion {
-  margin-top: 80px;
-}
-
-.title__instalacion2 {
-  margin-top: 160px;
-}
-
-.textinst {
-  font-size: 20px;
-  color: #002147;
-  font-weight: bold;
-  margin: 60px 100px;
-  letter-spacing: 1px;
-  line-height: 28px;
-}
-
-.title__instalacion3 {
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: #78290f;
-  margin-top: 115px;
-  margin-bottom: 100px;
-  text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-.imagenesinst img {
-  box-shadow: 7px 7px 9px 0px #001524;
-  transition: 0.5s;
-}
-
-.imagenesinst img:hover {
-  opacity: 0.4;
-}
-
-.inst__btnsaber {
-  margin-top: 110px;
-  text-align: center;
-}
-
-.inst__btnsaber a {
-  background-color: #78290f;
-  color: aliceblue;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 25px;
-  text-transform: uppercase;
-  padding: 20px;
-  border-radius: 15px;
-  transition: 0.7s;
-  border: 2px solid #78290f;
-}
-
-.inst__btnsaber a:hover {
-  background-color: transparent;
-  color: #78290f;
-}
-
-/* -----------------------------------------------------------------FOOTER----------------------------------------------------------------- */
 
 footer {
   width: 100%;
@@ -383,12 +354,10 @@ footer {
   flex-direction: column;
   padding: 15px 0px 15px 0px;
 }
-
-.social {
+footer .social {
   display: flex;
 }
-
-.social a {
+footer .social a {
   width: 45px;
   height: 45px;
   display: flex;
@@ -402,14 +371,12 @@ footer {
   font-size: 20px;
   transition: 0.3s;
 }
-
-.social a:hover {
+footer .social a:hover {
   transform: scale(1.3);
   transition: 0.3s;
 }
-
-.end,
-.end-social {
+footer .end,
+footer .end-social {
   text-transform: uppercase;
   font-weight: bold;
   color: aliceblue;
@@ -417,88 +384,58 @@ footer {
   padding: 10px;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: black;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #78290f;
-}
-
-/* RESTRICCIONES DE LAS PAGINAS */
-
 @media (max-width: 1120px) and (min-width: 360px) {
   /* PRINCIPAL */
-
   .principal__img {
     width: 300px;
   }
-
   .principal__title {
     font-size: 40px;
   }
-
   .principal__empresa {
     font-size: 20px;
   }
-
   .principal__bienvenido {
     font-size: 25px;
   }
-
   .principal__videoseg iframe {
     width: 340px;
     height: 220px;
   }
-
   /* NOSOTROS */
-
   .titlenos {
     font-size: 35px;
   }
-
   .textnos {
     font-size: 15px;
     text-align: center;
     margin: 50px 30px;
   }
-
   .text__valores span {
     font-size: 20px;
   }
-
   .imagen__oficialnos {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .imagen__oficialnos img {
     width: 360px;
   }
-
   .mapa__nosotros iframe {
     width: 370px;
     height: 230px;
   }
-
   .text__nosotroslema {
     font-size: 25px;
     margin-left: 5px;
   }
-
   /* CONTACTO */
-
   .title__contacto {
     font-size: 27px;
     margin-left: 10px;
     margin-right: 10px;
   }
-
   form {
     display: flex;
     flex-direction: column;
@@ -506,74 +443,61 @@ footer {
     align-items: center;
     margin: 100px 0px;
   }
-
   form input,
   form label,
   form legend {
     font-size: 18px;
   }
-
   form select {
+    display: flex;
     font-size: 18px;
   }
-
   textarea {
-    width: 360px;
-  }
-
-  .btn__enviarcontact {
     width: 300px;
   }
-
+  form .btn__enviarcontact {
+    width: 300px;
+  }
   .text__contacto {
     font-size: 20px;
+    margin-right: 2px;
   }
-
   /* SERVICIOS */
-
   .titleservi {
     font-size: 35px;
   }
-
   .textservi {
     font-size: 15px;
     margin: 50px 30px;
     text-align: center;
   }
-
   .boton__contratarservi a {
     font-size: 18px;
     padding: 15px;
   }
-
   .text__servicio {
     font-size: 20px;
   }
-
   /* INSTALACION */
-
   .titleinst {
     font-size: 35px;
   }
-
   .textinst {
     font-size: 15px;
     margin: 50px 30px;
     text-align: center;
   }
-
   .inst__btnsaber a {
     font-size: 18px;
     padding: 15px;
   }
-
   .title__instalacion3 {
     font-size: 20px;
   }
-
   /* FOOTER */
-
   .end {
     font-size: 16px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

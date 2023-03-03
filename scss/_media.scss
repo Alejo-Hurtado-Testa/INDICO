@@ -1,0 +1,148 @@
+@media (max-width: 1120px) and (min-width: 360px) {
+  /* PRINCIPAL */
+
+  .principal__img {
+    width: 300px;
+  }
+
+  .principal__title {
+    font-size: 40px;
+  }
+
+  .principal__empresa {
+    font-size: 20px;
+  }
+
+  .principal__bienvenido {
+    font-size: 25px;
+  }
+
+  .principal__videoseg iframe {
+    width: 340px;
+    height: 220px;
+  }
+
+  /* NOSOTROS */
+
+  .titlenos {
+    font-size: 35px;
+  }
+
+  .textnos {
+    font-size: 15px;
+    text-align: center;
+    margin: 50px 30px;
+  }
+
+  .text__valores span {
+    font-size: 20px;
+  }
+
+  .imagen__oficialnos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen__oficialnos img {
+    width: 360px;
+  }
+
+  .mapa__nosotros iframe {
+    width: 370px;
+    height: 230px;
+  }
+
+  .text__nosotroslema {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+
+  /* CONTACTO */
+
+  .title__contacto {
+    font-size: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+  }
+
+  form input,
+  form label,
+  form legend {
+    font-size: 18px;
+  }
+
+  form select {
+    display: flex;
+    font-size: 18px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  form .btn__enviarcontact {
+    width: 300px;
+  }
+
+  .text__contacto {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  /* SERVICIOS */
+
+  .titleservi {
+    font-size: 35px;
+  }
+
+  .textservi {
+    font-size: 15px;
+    margin: 50px 30px;
+    text-align: center;
+  }
+
+  .boton__contratarservi a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .text__servicio {
+    font-size: 20px;
+  }
+
+  /* INSTALACION */
+
+  .titleinst {
+    font-size: 35px;
+  }
+
+  .textinst {
+    font-size: 15px;
+    margin: 50px 30px;
+    text-align: center;
+  }
+
+  .inst__btnsaber a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .title__instalacion3 {
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+
+  .end {
+    font-size: 16px;
+  }
+}
