@@ -39,11 +39,7 @@
   margin-top: 100px;
   img {
     border-radius: 25px;
-    transition: 0.5s;
     box-shadow: $img-shadow;
-    &:hover {
-      opacity: 0.4;
-    }
   }
 }
 

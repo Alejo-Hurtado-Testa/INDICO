@@ -20,3 +20,15 @@ body {
 ::-webkit-scrollbar-thumb {
   background: $secondary-color;
 }
+
+@keyframes from-down {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

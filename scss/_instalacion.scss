@@ -35,10 +35,6 @@
 .imagenesinst {
   img {
     box-shadow: $img-shadow;
-    transition: 0.5s;
-    &:hover {
-      opacity: 0.4;
-    }
   }
 }
 

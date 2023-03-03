@@ -3,11 +3,16 @@
   text-align: center;
   align-items: center;
 
+  .principal__img {
+    animation: from-down 1.5s ease;
+  }
+
   .textprin {
     font-weight: bold;
     text-transform: uppercase;
     color: $primary-color;
     margin-top: 50px;
+    animation: from-down 1.5s ease;
   }
 
   .principal__title {

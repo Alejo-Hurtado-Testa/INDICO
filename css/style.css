@@ -21,6 +21,16 @@ body {
   background: #78290f;
 }
 
+@keyframes from-down {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 header {
   width: 100%;
   background-color: #ffecd1;
@@ -72,11 +82,15 @@ ul li:hover {
   text-align: center;
   align-items: center;
 }
+.principal .principal__img {
+  animation: from-down 1.5s ease;
+}
 .principal .textprin {
   font-weight: bold;
   text-transform: uppercase;
   color: #002147;
   margin-top: 50px;
+  animation: from-down 1.5s ease;
 }
 .principal .principal__title {
   font-size: 60px;
@@ -123,10 +137,6 @@ ul li:hover {
 
 .imagenesservi img {
   box-shadow: 7px 7px 9px 0px #001524;
-  transition: 0.5s;
-}
-.imagenesservi img:hover {
-  opacity: 0.4;
 }
 
 .boton__contratarservi {
@@ -195,10 +205,6 @@ ul li:hover {
 
 .imagenesinst img {
   box-shadow: 7px 7px 9px 0px #001524;
-  transition: 0.5s;
-}
-.imagenesinst img:hover {
-  opacity: 0.4;
 }
 
 .inst__btnsaber {
@@ -322,11 +328,7 @@ form .btn__enviarcontact:hover {
 }
 .imagen__oficialnos img {
   border-radius: 25px;
-  transition: 0.5s;
   box-shadow: 7px 7px 9px 0px #001524;
-}
-.imagen__oficialnos img:hover {
-  opacity: 0.4;
 }
 
 .mapa__nosotros {
