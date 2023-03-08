@@ -33,9 +33,7 @@
 }
 
 .imagen__oficialnos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   margin-top: 100px;
   img {
     border-radius: 25px;
@@ -44,9 +42,7 @@
 }
 
 .mapa__nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
 }
 
 .text__nosotroslema {

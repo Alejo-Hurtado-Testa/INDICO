@@ -5,3 +5,8 @@ $img-shadow: 7px 7px 9px 0px #001524;
 $font-title: bold 55px "Inria Sans", sans-serif;
 $font-text: bold 20px "Inria Sans", sans-serif;
 $font-lema: bold italic 28px "Inria Sans", sans-serif;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,9 +1,7 @@
 footer {
   width: 100%;
   background-color: #001524;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   text-align: center;
   flex-direction: column;
   padding: 15px 0px 15px 0px;
@@ -13,9 +11,7 @@ footer {
     a {
       width: 45px;
       height: 45px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex-center;
       background-color: #15616d;
       border-radius: 50%;
       margin: 22px 10px;

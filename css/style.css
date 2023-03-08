@@ -363,8 +363,8 @@ footer .social a {
   width: 45px;
   height: 45px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: #15616d;
   border-radius: 50%;
   margin: 22px 10px;
@@ -422,10 +422,10 @@ footer .end-social {
     align-items: center;
   }
   .imagen__oficialnos img {
-    width: 360px;
+    width: 340px;
   }
   .mapa__nosotros iframe {
-    width: 370px;
+    width: 340px;
     height: 230px;
   }
   .text__nosotroslema {
@@ -440,9 +440,9 @@ footer .end-social {
   }
   form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 100px 0px;
   }
   form input,
