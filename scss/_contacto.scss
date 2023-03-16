@@ -10,16 +10,11 @@
 form {
   margin: 100px 150px;
 
-  label {
-    display: flex;
-  }
-
   input {
     border-radius: 8px;
   }
 
   input,
-  label,
   legend {
     display: block;
     font-size: 25px;
