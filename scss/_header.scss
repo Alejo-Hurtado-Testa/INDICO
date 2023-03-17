@@ -30,10 +30,15 @@ ul {
   }
 }
 
+.active {
+  color: #2a9d8f !important;
+}
+
 .nav-link {
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
   color: $primary-color;
   transition: 0.3s;
   margin-right: 30px;
